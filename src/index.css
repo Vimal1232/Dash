@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calender {
+  color-scheme: dark;
+}
+body {
+  background-color: #9ec8b9;
+}
