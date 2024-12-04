@@ -35,7 +35,7 @@ const TaskForm = () => {
       </div>
 
       {modal && (
-        <div className="bg-white rounded-lg shadow-lg text-gray-800 fixed w-[500px] h-[500px] flex items-center justify-center p-8 left-[50%] bottom-[50%] transform -translate-x-1/2 translate-y-1/2">
+        <div className="bg-white rounded-lg shadow-lg text-gray-800 fixed w-[500px] h-[500px] flex items-center justify-center p-8 left-[50%] bottom-[50%] transform -translate-x-1/2 translate-y-1/2 max-md:w-[250px]">
           <form
             className="flex flex-col items-center gap-6 w-full"
             onSubmit={handleSubmit}
