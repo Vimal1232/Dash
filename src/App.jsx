@@ -5,7 +5,7 @@ import FilterSelector from "./filter";
 
 const App = () => {
   return (
-    <div className="grid grid-cols-6 max-md:grid-cols-3 grid-rows-6 gap-6 bg-gray-100 p-10 rounded-lg shadow-lg">
+    <div className="grid grid-cols-6 max-md:grid-cols-3 grid-rows-6 gap-6 bg-gray-100 p-10 max-md:p-5 rounded-lg shadow-lg">
       <div className="col-span-3 ">
         <TaskForm />
       </div>
